@@ -1,0 +1,16 @@
+The following program is for the signal time. 
+
+The code consists of following files: 
+
+carCount.h
+carCount.cpp
+signalTime.h
+signalTime.cpp
+signalCirculation.h
+signalCirculation.cpp
+
+carCount: carCount.h & carCount.cpp are used for getting & displaying total number of cars. 
+
+signalTime: signalTime.h & signalTime.cpp calculates the respective signal time for each lane. The code used bubble wrap to sort out the number of cars in ascending order and then assign each lane a calculated time depending on the number of cars. 
+
+signalCirculation: This part of the code uses the calculated times and keeps the signal circulating. 
