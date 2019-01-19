@@ -1,7 +1,22 @@
 # Traffic_Management-OpenCV
-The following code is for a traffic management software. The code prioritizes lanes according to number of cars in those respective lanes.
-The code has been divided into two parts: 
-                                          1: The part that counts the number of cars in all lanes. 
-                                          2: The part that calculates each signal time using this car count. 
-COUNTING CARS: This program has been developed using c++ and OpenCV.lib. Blob detection has been used for counting number of cars. 
-SIGNAL TIME: This is a simple C++ code that uses the car count to generate a ON time for each signal. 
+Since our first task would be to detect cars, in order to get a car count. 
+
+So, for this we used OpenCV.lib, its an open source library primarily used for image processing and object detection. 
+
+The main concept behind this code would be to assign each of our objects (cars) a blob.
+
+A counter would increment each time the blob passes through a virtual line, therefore calculating total number of cars in a particular lane. 
+
+The code consists of three files:
+
+blob.h
+blob.cpp
+main.cpp		 
+	
+Blob.h: blob.h contains all the declarations/prototypes of the functions need to position a blob.
+
+Blob.cpp: blob.cpp is the implementation of all these functions. 
+
+Main.cpp: main starts by including the OpenCV.lib header files. The code has been made up to image detection and blob formation.
+
+please look into signalTime folder for the rest of the program. 
