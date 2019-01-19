@@ -30,7 +30,7 @@ int main(void) {
 	cv::Mat imgFrame2;
 	//cv::Point crossingLine[2];
 	//int carCount = 0;
-	capVideo.open("cars.mp4");
+	capVideo.open("sampleVid.avi");
 
 	if (!capVideo.isOpened()) {                                                 // if unable to open video file
 		std::cout << "\nerror reading video file" << std::endl << std::endl;      // show error message
